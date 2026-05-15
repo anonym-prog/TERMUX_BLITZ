@@ -84,3 +84,49 @@ blitz utils        # Utilities
 blitz ip 8.8.8.8   # Track IP address
 blitz cam           # Launch camera hack
 blitz sms           # Launch SMS bomber
+
+> **Termux Penetration Testing Toolkit — Android**
+> **Author:** [Your Username] | **Version:** 1.0
+
+---
+
+## 🎯 **20 TOOLS FRESH LIST**
+
+| # | Tool | Kategori | Root? | Fungsi |
+|---|------|----------|-------|--------|
+| 1 | **Zphisher** | 🎣 Phishing | ❌ | Auto phishing (50+ templates) |
+| 2 | **SayCheese** | 🎣 Phishing | ❌ | Camera phishing via link |
+| 3 | **CamHack** | 🤖 Android | ❌ | Kamera jarak jauh |
+| 4 | **IPGeo** | 🔍 OSINT | ❌ | IP tracker + maps |
+| 5 | **SocialSploit** | 📱 Social | ❌ | Social media brute |
+| 6 | **InstaHack** | 📱 Social | ❌ | Instagram hacking |
+| 7 | **TBomb** | 💬 Spam | ❌ | SMS/email bomber |
+| 8 | **SpamX** | 💬 Spam | ❌ | Multi-layer SMS bomber |
+| 9 | **HiddenEye** | 🎣 Phishing | ❌ | Advanced phishing |
+| 10 | **Nexphisher** | 🎣 Phishing | ❌ | Premium phishing |
+| 11 | **Cupp** | 🔐 Crypt | ❌ | Wordlist generator based on profiling |
+| 12 | **HashBuster** | 🔐 Crypt | ❌ | Hash cracker online |
+| 13 | **Lazymux** | ⚙️ Utils | ❌ | Tool installer multi-platform |
+| 14 | **OSIF** | 🔍 OSINT | ❌ | Facebook OSINT |
+| 15 | **RED_HAWK** | 🌐 Web | ❌ | Web vulnerability scanner |
+| 16 | **Webkiller** | 🌐 Web | ❌ | Web scanner + admin finder |
+| 17 | **RouterSploit** | 📡 WiFi | ❌ | Router exploit (non-root scan) |
+| 18 | **Wifite** | 📡 WiFi | ✅ | WiFi auditor (root) |
+| 19 | **Airgeddon** | 📡 WiFi | ✅ | WiFi hacking all-in-one (root) |
+| 20 | **Rucky** | 🤖 Android | ❌ | HID attack via USB |
+
+---
+
+## ⚡ **INSTALLASI**
+
+### Method 1: Auto Install (Recommended)
+
+```bash
+# Install Termux dulu dari F-Droid (bukan Play Store!)
+# Lalu:
+pkg update && pkg upgrade -y
+pkg install git -y
+git clone https://github.com/[username]/TERMUX-BLITZ.git
+cd TERMUX-BLITZ
+chmod +x install.sh setup.sh blitz.sh modules/*.sh scripts/*.sh
+./install.sh
